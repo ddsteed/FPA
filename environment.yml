@@ -4,7 +4,21 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - aiofiles
+  - aiosqlite
+  - anyio
   - aom
+  - appnope
+  - argon2-cffi
+  - argon2-cffi-bindings
+  - asttokens
+  - attrs
+  - babel
+  - backcall
+  - backports
+  - backports.functools_lru_cache
+  - beautifulsoup4
+  - bleach
   - boltons
   - brotlipy
   - bzip2
@@ -14,13 +28,20 @@ dependencies:
   - cffi
   - charset-normalizer
   - colorama
+  - comm
   - conda
   - conda-package-handling
   - conda-package-streaming
   - cryptography
+  - debugpy
+  - decorator
+  - defusedxml
+  - entrypoints
+  - executing
   - expat
   - ffmpeg
   - filelock
+  - flit-core
   - fmt
   - font-ttf-dejavu-sans-mono
   - font-ttf-inconsolata
@@ -36,10 +57,34 @@ dependencies:
   - gnutls
   - icu
   - idna
+  - importlib-metadata
+  - importlib_metadata
+  - importlib_resources
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - ipywidgets
+  - jedi
   - jinja2
   - jpeg
+  - json5
   - jsonpatch
   - jsonpointer
+  - jsonschema
+  - jupyter
+  - jupyter_client
+  - jupyter_console
+  - jupyter_core
+  - jupyter_events
+  - jupyter_server
+  - jupyter_server_fileid
+  - jupyter_server_terminals
+  - jupyter_server_ydoc
+  - jupyter_ydoc
+  - jupyterlab
+  - jupyterlab_pygments
+  - jupyterlab_server
+  - jupyterlab_widgets
   - krb5
   - lame
   - lcms2
@@ -65,6 +110,7 @@ dependencies:
   - libopenblas
   - libopus
   - libpng
+  - libsodium
   - libsolv
   - libsqlite
   - libssh2
@@ -81,53 +127,107 @@ dependencies:
   - lzo
   - mamba
   - markupsafe
+  - matplotlib-inline
+  - mistune
   - mpc
   - mpfr
   - mpmath
+  - nbclassic
+  - nbclient
+  - nbconvert
+  - nbconvert-core
+  - nbconvert-pandoc
+  - nbformat
   - ncurses
+  - nest-asyncio
   - nettle
   - networkx
+  - notebook
+  - notebook-shim
   - numpy
   - openh264
   - openjpeg
   - openssl
   - p11-kit
   - packaging
+  - pandoc
+  - pandocfilters
+  - parso
+  - pexpect
+  - pickleshare
   - pillow
   - pip
+  - pkgutil-resolve-name
+  - platformdirs
   - pluggy
+  - prometheus_client
+  - prompt-toolkit
+  - prompt_toolkit
+  - psutil
   - pthread-stubs
+  - ptyprocess
+  - pure_eval
   - pybind11-abi
   - pycosat
   - pycparser
+  - pygments
   - pyopenssl
+  - pyrsistent
   - pysocks
   - python
+  - python-dateutil
+  - python-fastjsonschema
+  - python-json-logger
   - python_abi
   - pytorch
+  - pytz
+  - pyyaml
+  - pyzmq
   - readline
   - reproc
   - reproc-cpp
   - requests
+  - rfc3339-validator
+  - rfc3986-validator
   - ruamel.yaml
   - ruamel.yaml.clib
+  - send2trash
   - setuptools
+  - six
+  - sniffio
+  - soupsieve
+  - stack_data
   - svt-av1
   - sympy
+  - terminado
+  - tinycss2
   - tk
+  - tomli
   - toolz
   - torchaudio
   - torchvision
+  - tornado
   - tqdm
+  - traitlets
+  - typing-extensions
   - typing_extensions
   - tzdata
   - urllib3
+  - wcwidth
+  - webencodings
+  - websocket-client
   - wheel
+  - widgetsnbextension
   - x264
   - x265
   - xorg-libxau
   - xorg-libxdmcp
   - xz
+  - y-py
+  - yaml
   - yaml-cpp
+  - ypy-websocket
+  - zeromq
+  - zipp
   - zstandard
   - zstd
